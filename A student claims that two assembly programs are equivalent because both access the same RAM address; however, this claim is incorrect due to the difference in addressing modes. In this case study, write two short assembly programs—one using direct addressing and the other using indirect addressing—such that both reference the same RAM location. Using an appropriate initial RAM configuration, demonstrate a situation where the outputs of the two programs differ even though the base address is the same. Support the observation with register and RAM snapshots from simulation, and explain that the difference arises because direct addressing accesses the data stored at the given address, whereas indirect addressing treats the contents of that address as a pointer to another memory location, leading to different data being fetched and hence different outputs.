@@ -1,0 +1,11 @@
+ORG 0000H
+MOV A, 50H    ; Direct addressing: A <— (50H)
+MOV 70H, A    ; Store result for observation
+END  
+
+
+ORG 0000H
+MOV R0, #50H  ; Load address 50H into pointer register
+MOV A, @R0    ; Indirect addressing: A <— ((R0))
+MOV 71H, A    ; Store result for observation
+END
