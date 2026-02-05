@@ -1,7 +1,1 @@
-ORG 0000H
-MOV A, 50H    ; Direct addressing: A <— (50H)
-MOV 70H, A    ; Store result for observation
-END  
-
-
 
